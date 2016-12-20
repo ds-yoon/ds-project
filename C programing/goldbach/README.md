@@ -4,10 +4,10 @@ A TUTOR OR CODE WRITTEN BY OTHER STUDENTS - DONG SUN YOON */
 
 Assignment given in the class CS450: Systems Programming for Fall 2016 at Emory University 
 
-Instructor : Prof. K. Mandelberg
-Used OS: Unix
-Language: C
-Used file: goldbach.c
+Instructor : Prof. K. Mandelberg.
+Used OS: Unix.
+Language: C.
+Used file: goldbach.c.
 
 Instructions: 
 To run program, make a.out file through terminal. Using the a.out created by the terminal,
