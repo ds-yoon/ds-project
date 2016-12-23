@@ -22,4 +22,4 @@ Enter Even Numbers > 5 for Goldbach Tests
 88
 Largest 88 = 41 + 47 out of 4 solutions
 50
-Largest 50 = 19 + 31 out of 4` solutions
+Largest 50 = 19 + 31 out of 4 solutions
