@@ -7,7 +7,7 @@ Instructor : Prof. K. Mandelberg
 Used OS: Unix 
 Language: C
 Used file: uniqify.c
-		   uniqify_extra.c
+	   uniqify_extra.c
 
 
 Overview:
