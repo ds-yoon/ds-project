@@ -11,12 +11,6 @@
 	xdef ans_b, ans_w, ans_l
 
 Start:
-*******************************************************************
-* Put your assembler instructions here
-* Write the answer to each question after the corresponding label.
-* DO NOT REMOVE ANY LABEL IN THIS ASSIGNMENT (all labels are now NECESSARY)
-* *** Failure to do so will result in point dedections !!! ***
-*******************************************************************
 
 Q1:
 *         ans_l = i
@@ -138,17 +132,8 @@ Q10:
 	move.w d0, ans_w
 
 
-*************************************************
-* Don't write any code below this line
-*************************************************
-
 Stop:	nop
 	nop
-
-*************************************************
-* Don't touch these variables
-* You do NOT need to define more variables !!!
-*************************************************
 
 ans_b: ds.b 1
 	even
@@ -156,12 +141,6 @@ ans_w: ds.w 1
 ans_l: ds.l 1
 
 i:     dc.b  2
-************************************************************************
-* We need to add a 1 byte dummy variable to make the next variable j
-* locate on an EVEN address.
-* Due to some architectural constraints, short and int variables MUST
-* start on an even address (or you will get an "odd address" error
-************************************************************************
 	even
 
 j:   dc.w  3
