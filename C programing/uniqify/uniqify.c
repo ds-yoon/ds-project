@@ -107,7 +107,7 @@ void suppressor(int file){ //combine duplicates of char. and count the numbers i
 			}
 		}	
 	}
-	if (strlen(cfile)-1 < 31 && count >= 1){
+	if (strlen(cfile)-1 < 31 && count >= 1){ //include the very last char
 		printf("%-5d", count);
 		fputs(cfile, stdout);
 	}
