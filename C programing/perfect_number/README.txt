@@ -21,6 +21,7 @@ Instructions:
 They way to run program is to make a compiler for compute.c, manage.c, and report.c then run manage compiler first before running any other program. There is no need to call any other command line other than manage compiler itself to begin than call compute compiler with the number indicating the starting point to look for perfect number. Run report compiler to see the current compute processes and finally prompt –k to terminate every process and get total found perfect numbers and total information regarding number of tested, skipped and found
 
 Sample Output:
+
 $ manage &
 Run compute
 $ compute 1000 &
