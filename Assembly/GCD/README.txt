@@ -6,7 +6,7 @@ Assignment given in the class CS255: Computer Organization & Architecture at Emo
 Instructor: Prof. Cheung
 Program: M68000 assembler programming
 Used file:	gcd.s
-		        egt.gcd //provided by Prof.Cheung for debugging
+		egt.gcd //provided by Prof.Cheung for debugging
 
 
 Overview:
