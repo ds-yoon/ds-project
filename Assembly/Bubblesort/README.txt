@@ -6,7 +6,7 @@ Assignment given in the class CS255: Computer Organization & Architecture at Emo
 Instructor: Prof. Cheung
 Program: M68000 assembler programming
 Used file:	bubblesort.s
-		egt.gcd //provided by Prof.Cheung for debugging
+		egt.main //provided by Prof.Cheung for debugging
 		main.s  //basic instruction provided by Prof.Cheung
 
 
