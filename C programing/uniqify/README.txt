@@ -12,7 +12,7 @@ Used file: uniqify.c
 
 Overview:
 
-This program receives given txt files and retrieves characters in the txt files until stopped by non-char values. It converts every char to lowercase, and truncate if it is longer than 30 char or shorter than 3 char. The program uses pipe and fork method to retrieve data from file and exec system call to sort in alphabetic order. Result indicates how many times the word is included in the text file and listed out in alphabetical order. 
+This program receives given txt files and retrieves characters in the txt files until stopped by non-char values. It converts every char to lowercase, and truncate if the size of the char is greater than 30 char. The program uses pipe and fork method to retrieve data from file and exec system call to sort in alphabetic order. Result indicates how many times the word is included in the text file and listed out in alphabetical order. 
 The first C program file uniqify.c uses single pipeline to conduct the result. The second C program file uniqify_extra.c uses two pipeline to separate even and odd line before combining into one result. 
 
 
