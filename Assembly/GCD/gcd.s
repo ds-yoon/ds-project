@@ -2,21 +2,9 @@
 * OR CODE WRITTEN BY OTHER STUDENTS - Dong Sun Yoon
 * 
 * 
-* ********************************************************************
-* Do not touch the following 2 xdef lists:
-* ********************************************************************
         xdef Start, Stop, End
         xdef A, B, GCD
 
-* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-* You can add more xdef here to export labels to emacsim
-* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-*      Put your assembler program here - between the start and stop label
-*      DO NOT define any variables here - see the variable section below
-* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Start:
 
 	move.l A, d0
@@ -46,40 +34,8 @@ Loop:
 Loop_end: move.l d1, GCD
 
 
-
-
-
-
-
-
-
-
-
-
-* ********************************************************************
-* Don't touch the stop label - you need it to stop the program
-* ********************************************************************
 Stop:   nop
 
-
-
-* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-*    Variable Section -   Put your variables here IF you need more
-*
-*    DO NOT define A, B and GCD !!!
-*    They are already defined below
-*
-* You can add more variables below this line if you need them
-* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-
-
-
-
-* ********************************************************************
-* XXXX Don't touch anything below this line !!!
-* ********************************************************************
 A:      dc.l  168
 B:      dc.l  651
 GCD:    ds.l  1
