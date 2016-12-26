@@ -14,7 +14,7 @@ Used file:	HelpList.java
 Overview:
 
 Recursive insert list algorithm in M68000 assembler language that maintains a sorted list. The list is in ascending order and the prototype of the assembly language is written in Java. First, the program was programmed in Java file HelpList.java, for the guideline to construct assembly. With the correct algorithm with an output:
-List = 30	     
+   List = 30	     
    List = 30 50	     
    List = 10 30 50
    List = 10 30 40 50
